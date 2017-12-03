@@ -1,0 +1,19 @@
+{
+  "name": "son/mvc",
+  "require": {
+    "php": ">=5.6"
+  },
+  "authors":[
+    {
+      "name":"Saulo Gomes",
+      "email":"saulobr88@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "SON\\":"vendor/SON/",
+      "App\\":"App/"
+    }
+  }
+
+}
