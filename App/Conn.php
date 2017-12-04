@@ -7,7 +7,7 @@ class Conn
 {
     public static function getDb()
     {
-        return new \PDO("mysql:host=localhost;dbname=mvc;charset=utf8", "root", "byebye@88");
+        return new \PDO("mysql:host=localhost;dbname=mvc;charset=utf8", "username", "secret");
     }
 
 
