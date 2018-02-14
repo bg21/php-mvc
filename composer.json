@@ -1,5 +1,9 @@
 {
   "name": "son/mvc",
+  "description": "Project from School of Net - PHP-MVC",
+  "keywords": ["php", "mvc", "phpunit"],
+  "license": "MIT",
+  "type": "project",
   "require": {
     "php": ">=5.6"
   },
@@ -15,6 +19,7 @@
   "autoload":{
     "psr-4":{
       "SON\\":"vendor/SON/",
+      "Test\\":"tests/",
       "App\\":"App/"
     }
   }
